@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+    <addon id="repository.TheMarketplace" name="Your Addons Name" version="1.0" provider-name="Melange">
+        <requires>
+            <import addon="xbmc.addon" version="12.0.0"/>
+        </requires>
+        <extension point="xbmc.addon.repository" name="Your Addons Name">
+            <info compressed="false">http://kanadienrepo.kissr.com_repo/addons.xml</info>
+            <checksum>http://kanadienrepo.kissr.com_repo/addons.xml.md5</checksum>
+            <datadir zip="true">http://kanadienrepo.kissr.com_repo/</datadir>
+            <hashes>false</hashes>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>Addons ive made or ones lost in the internet</summary>
+            <description>Be all and end all of repos.</description>
+            <platform>all</platform>
+    </extension>
+</addon>
+
+<addon id="plugin.video.cinemassacre"
+	name="cinemassacre"
+	version="0.0.2"
+	provider-name="phillyb">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="5.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">cinemassacre</summary>
+    <description lang="en">Play videos from Cinemassacre.com such as avgn,boardjames,james and mike mondays and many many more</description>
+    <platform>all</platform>
+    <forum>http://forum.kodi.tv/showthread.php?tid=295257</forum>
+    <source>https://www.cinemassacre.com</source>
+  </extension>
+</addon>
+
+<addon id="repository.TheMarketplace" name="The Kodi Marketplace" version="1.0" provider-name="melange">
+	<extension point="xbmc.addon.repository" name="The Kodi Marketplace">
+		<info compressed="false">http://Kanadienrepo.kissr.com/files/addons.xml</info>
+	<checksum>http://Kanadienrepo.kissr.com/files/addons.xml.md5</checksum>
+		<datadir zip="true">http://Kanadienrepo.kissr.com/files/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>The Kodi</summary>
+		<description>The end and be all of kodi repos.</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+</addons>
